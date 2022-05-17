@@ -143,7 +143,7 @@ def get_servers_from_system(log: str, system: str, resource_failures: str = None
 
         for i in range(int(s.attrib["limit"])):
             servers[type_][i] = Server(
-                type_, i, int(s.attrib["coreCount"]), int(s.attrib["memory"]), int(s.attrib["disk"]))
+                type_, i, int(s.attrib["cores"]), int(s.attrib["memory"]), int(s.attrib["disk"]))
 
     get_jobs(log, servers)
 
