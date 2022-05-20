@@ -37,4 +37,4 @@ the left window, and `Current Results` and `Final Results` for the right window.
 ### Troubleshooting
 - If you receive a `X Error of failed request:  BadAlloc (insufficient resources for operation)` error and are
 unable to increase your memory capacity, try reducing the core height by passing a lower number with the `-c`
-option.
+option.# ds-viz
